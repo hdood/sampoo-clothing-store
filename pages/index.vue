@@ -160,7 +160,7 @@
 		<div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14 text-emerald-800">
 			<h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Our Products</h2>
 			<TabGroup>
-				<TabList as="div" class="flex flex-col lg-flex-row items-center lg:gap-20 justify-center mt-10 gap-3">
+				<TabList as="div" class="flex flex-col lg:flex-row items-center lg:gap-20 justify-center mt-10 gap-3">
 					<Tab v-slot="{ selected }" as="div" class="focus:outline-none focus:border-none cursor-pointer">
 						<span :class="[selected && 'border-b-2 pb-2 border-emerald-600']">SALE</span>
 					</Tab>
